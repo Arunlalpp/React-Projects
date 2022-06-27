@@ -1,9 +1,14 @@
 import "./App.css";
+import Header from "./components/Header";
+import HomeBanner from "./components/HomeBanner";
+import Button from "./components/Shared/Button";
 
 function App() {
 	return (
 		<div>
-			<h1 className="text-red-700">Welcome</h1>
+			{/* <Header /> */}
+			{/* <Button /> */}
+			<HomeBanner />
 		</div>
 	);
 }
