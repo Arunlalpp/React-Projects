@@ -8,6 +8,7 @@ import {
 	CustomerCompanyLogo2,
 	CustomerCompanyLogo3,
 } from "../src/Images/Index";
+import { Mailchimp1, Mailchimp2, Mailchimp3 } from "../src/Images/Index";
 import { Inspiration1, Inspiration2, Inspiration3 } from "../src/Images/Index";
 
 const containerDatas = [
@@ -70,4 +71,24 @@ const insiprationDatas = [
 		DetailsButton: "Browse partners",
 	},
 ];
-export { containerDatas, customerLogos, insiprationDatas };
+const mailchimpDatas = [
+	{
+		url: Mailchimp1,
+		Title: "Get your business online",
+		SubText:
+			"Give your brand a home with a custom domain. Then launch a website to sell products or take appointments, all with built-in marketing tools to help you boost sales and find fans.",
+		Button: "Websites and Stores",
+	},
+	{
+		url: Mailchimp2,
+		Title: "Market your business",
+		SubText:
+			"FSend the right messages on all the right channels. Build emails, social ads, landing pages, postcards, and more from one place.",
+		Button: "Marketing campaigns",
+	},
+	{
+		url: Mailchimp3,
+		empty: "",
+	},
+];
+export { containerDatas, customerLogos, insiprationDatas, mailchimpDatas };

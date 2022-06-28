@@ -3,6 +3,7 @@ import CustomerExperience from "./components/CustomerExperience";
 import Header from "./components/Header";
 import HomeBanner from "./components/HomeBanner";
 import Inspirations from "./components/Inspirations";
+import MailChimpFunctions from "./components/MailChimpFunctions";
 import OutperformContainer from "./components/OutperformContainer";
 import PlansBanner from "./components/PlansBanner";
 
@@ -15,6 +16,7 @@ function App() {
 			<OutperformContainer />
 			<CustomerExperience />
 			<Inspirations />
+			<MailChimpFunctions />
 			<PlansBanner />
 		</div>
 	);
