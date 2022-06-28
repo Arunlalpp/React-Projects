@@ -4,8 +4,8 @@ import { containerDatas } from "../Constants";
 
 function OutperformContainer(props) {
 	return (
-		<div className="bg-white">
-			<div className="my-[6.25rem]">
+		<div className="bg-white my-[6.25rem]">
+			<div className="mb-[80px]">
 				<div className="w-full box-border max-w-[1600px] mx-auto px-[1.875rem] text-center flex flex-col ">
 					<h1
 						className="text-[2.5rem] leading-[1] tracking-[.3125rem] text-Primary font-light"
