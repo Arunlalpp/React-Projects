@@ -3,6 +3,11 @@ import {
 	OutperformBanner2,
 	OutperformBanner3,
 } from "../src/Images/Index";
+import {
+	CustomerCompanyLogo1,
+	CustomerCompanyLogo2,
+	CustomerCompanyLogo3,
+} from "../src/Images/Index";
 
 const containerDatas = [
 	{
@@ -28,4 +33,18 @@ const containerDatas = [
 	},
 ];
 
-export { containerDatas };
+const customerLogos = [
+	{
+		Logo: CustomerCompanyLogo1,
+		Text: "Customers since 2011",
+	},
+	{
+		Logo: CustomerCompanyLogo2,
+		Text: "Customers since 2012",
+	},
+	{
+		Logo: CustomerCompanyLogo3,
+		Text: "Customers since 2010",
+	},
+];
+export { containerDatas, customerLogos };
