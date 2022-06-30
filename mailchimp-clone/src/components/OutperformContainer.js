@@ -4,14 +4,13 @@ import { containerDatas } from "../Constants";
 
 function OutperformContainer(props) {
 	return (
-		<div className="bg-white my-[6.25rem]">
+		<div className="bg-white my-[5rem]">
 			<div className="mb-[80px]">
 				<div className="w-full box-border max-w-[1600px] mx-auto px-[1.875rem] text-center flex flex-col ">
 					<h1
-						className="text-[2.5rem] leading-[1] tracking-[.3125rem] text-Primary font-light"
+						className="text-[2.5rem] leading-[1] text-Primary font-medium"
 						style={{
-							fontFamily:
-								"Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif",
+							fontFamily: "Means Web,Georgia,Times,Times New Roman,serif",
 						}}
 					>
 						Outperform your last campaign
@@ -23,8 +22,8 @@ function OutperformContainer(props) {
 					{containerDatas.map((containerData) => {
 						return (
 							<>
-								<div className="lg:flex lg:flex-row lg:items-center lg:justify-center">
-									<div className="pt-[3.75rem] lg:w-[577.5px] lg:pr-[126.241px]">
+								<div className="lg:flex lg:flex-row lg:items-center lg:justify-center pt-[3.75rem]">
+									<div className="lg:pt-[3.75rem] lg:w-[577.5px] lg:pr-[126.241px]">
 										<img src={containerData.url} alt="" />
 									</div>
 									<div className="mt-[60px] lg:w-[577.5px] lg:pl-[57.7474px]">
