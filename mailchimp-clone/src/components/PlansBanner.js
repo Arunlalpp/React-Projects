@@ -15,13 +15,13 @@ function PlansBanner() {
 							Let’s do this
 						</h2>
 					</div>
-					<div className="">
-						<div className="mt-3">
-							<p className="text-Primary text-[1.25rem] leading-[1.4] tracking-[0]">
-								Every big idea starts with a small step forward.
-							</p>
-						</div>
-						<div className="mt-[1.875rem] ">
+
+					<div className="mt-[1.875rem]">
+						<p className="text-Primary text-[1.25rem] leading-[1.4] tracking-[0]">
+							Every big idea starts with a small step forward.
+						</p>
+
+						<div className="mt-[2rem] ">
 							<a
 								className="text-[#fff] bg-[#007c89] font-semibold text-[.9375rem] py-[20px] px-[40px] text-center cursor-pointer leading-[20.25px]"
 								href="/"
