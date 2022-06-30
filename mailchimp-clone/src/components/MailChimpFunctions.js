@@ -36,7 +36,7 @@ function MailChimpFunctions() {
 					{mailchimpDatas.map((mailchimpData) => {
 						return (
 							<>
-								<div className="lg:flex lg:flex-row-reverse lg:items-center lg:justify-center">
+								<div className="lg:flex lg:flex-row-reverse lg:items-center lg:justify-center lg:justify-between">
 									<div className="pt-[3.75rem] lg:w-[577.5px] lg:pr-[126.241px]">
 										<img src={mailchimpData.url} alt="" />
 									</div>
