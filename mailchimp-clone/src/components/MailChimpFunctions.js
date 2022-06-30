@@ -9,7 +9,7 @@ function MailChimpFunctions() {
 			<div className="mb-[80px]">
 				<div className="w-full box-border max-w-[1600px] mx-auto px-[1.875rem] text-center flex flex-col ">
 					<h1
-						className="text-[2.5rem] leading-[1] tracking-[.3125rem] text-Primary font-light"
+						className="text-[2.5rem] leading-[1] lg:tracking-[.3125rem] text-Primary font-light"
 						style={{
 							fontFamily: "Means Web,Georgia,Times,Times New Roman,serif",
 						}}
@@ -23,7 +23,7 @@ function MailChimpFunctions() {
 								"Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif",
 						}}
 					>
-						<p className="text-[1rem] font-normal leading-[1.5] tracking-[0] text-Primary">
+						<p className="text-[1rem] font-normal leading-[1.5] tracking-[0] text-Primary text-center">
 							Bring your audience data, marketing channels, and insights
 							together so you can work on reaching your goals faster—all from a
 							single platform.
@@ -94,7 +94,7 @@ function MailChimpFunctions() {
 						<div className="flex flex-row gap-[5rem]">
 							<div className="w-[25vw]">
 								<span
-									className="text-[3.125rem] text-[#403b3b]"
+									className="text-[3.125rem] text-[#403b3b] m-0"
 									style={{
 										fontFamily: "Means Web,Georgia,Times,Times New Roman,serif",
 									}}
@@ -107,7 +107,7 @@ function MailChimpFunctions() {
 							</div>
 							<div className="w-[25vw]">
 								<span
-									className="text-[3.125rem] text-[#403b3b]"
+									className="text-[3.125rem] text-[#403b3b] m-0"
 									style={{
 										fontFamily: "Means Web,Georgia,Times,Times New Roman,serif",
 									}}
@@ -120,7 +120,7 @@ function MailChimpFunctions() {
 							</div>
 						</div>
 						<div className="mt-[1.25rem]">
-							<span className="text-[#727070] text-[14px]">
+							<span className="text-[#727070] text-[14px] m-0">
 								Results not typical.
 							</span>
 						</div>
