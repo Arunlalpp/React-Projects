@@ -34,7 +34,7 @@ function HomeBanner() {
 								<div className="mr-[1.25rem]">
 									<a
 										href="/"
-										className="text-white bg-[#007c89] font-semibold text-[#fff] text-[.9375rem] py-[20px] px-[40px] text-center cursor-pointer leading-[20.25px]"
+										className="text-white bg-[#007c89] font-semibold  text-[.9375rem] py-[20px] px-[40px] text-center cursor-pointer leading-[20.25px]"
 										style={{
 											fontFamily:
 												"Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif",
@@ -48,9 +48,9 @@ function HomeBanner() {
 								</div>
 							</div>
 						</span>
-						<div className="pt-[4.9rem] lg:pt-0 w-[365.931px] h-[273.466px] lg:w-[50%] lg:h-auto md:w-full md:h-auto">
+						<div className="pt-[4.9rem] lg:pt-0 sm:w-[365.931px] h-[273.466px] lg:w-[50%] lg:h-auto md:w-full md:h-auto xs:max-w-[337.931px]">
 							<picture>
-								<img className="block  w-full h-auto " src={Banner} alt="" />
+								<img className="block  w-full h-auto  " src={Banner} alt="" />
 							</picture>
 						</div>
 					</div>
