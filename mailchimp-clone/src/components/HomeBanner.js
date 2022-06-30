@@ -4,7 +4,7 @@ import Banner from "../Images/Banner.webp";
 function HomeBanner() {
 	return (
 		<div>
-			<div className="bg-full bg-[#ffe01b] py-[120px] lg:pb-[50px] ">
+			<div className="bg-full bg-[#ffe01b] pb-[120px] lg:pt-[120px] pt-[5.8rem] lg:pb-[50px] ">
 				<div className="box-border max-w-[1600px] mx-auto px-[1.875rem]">
 					<div className="mx-auto items-center lg:flex flex-row lg:w-[80%] md:w-[75%]">
 						<span className=" text-[#403b3b] lg:w-[50%] md:w-[75%]">
@@ -34,7 +34,7 @@ function HomeBanner() {
 								<div className="mr-[1.25rem]">
 									<a
 										href="/"
-										className="text-white bg-[#007c89] font-semibold text-[.9375rem] py-[20px] px-[40px] text-center cursor-pointer leading-[20.25px]"
+										className="text-white bg-[#007c89] font-semibold text-[#fff] text-[.9375rem] py-[20px] px-[40px] text-center cursor-pointer leading-[20.25px]"
 										style={{
 											fontFamily:
 												"Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif",
@@ -50,11 +50,7 @@ function HomeBanner() {
 						</span>
 						<div className="pt-[4.9rem] lg:pt-0 w-[365.931px] h-[273.466px] lg:w-[50%] lg:h-auto md:w-full md:h-auto">
 							<picture>
-								<img
-									className="block relative w-full h-auto"
-									src={Banner}
-									alt=""
-								/>
+								<img className="block  w-full h-auto " src={Banner} alt="" />
 							</picture>
 						</div>
 					</div>
