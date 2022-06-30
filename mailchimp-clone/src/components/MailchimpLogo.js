@@ -4,11 +4,9 @@ function MailchimpLogo() {
 	return (
 		<div className="">
 			<svg
+				className=" lg:h-[60px] lg:w-[250px] h-[2rem] ml-[7px] lg:ml-0"
 				xmlns="http://www.w3.org/2000/svg"
-				class="brandLogo brandLogo--lockup--animated"
 				aria-label="Mailchimp"
-				width="250"
-				height="60"
 				viewBox="0 0 250 60"
 			>
 				<g class="brandLogo__freddie">
