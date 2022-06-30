@@ -4,7 +4,7 @@ import Banner from "../Images/Banner.webp";
 function HomeBanner() {
 	return (
 		<div>
-			<div className="bg-full bg-[#ffe01b] pb-[120px] lg:pt-[120px] pt-[5.8rem] lg:pb-[50px] ">
+			<div className="bg-full bg-[#ffe01b] pb-[120px] lg:pt-[120px] pt-[7.4rem] lg:pb-[50px] ">
 				<div className="box-border max-w-[1600px] mx-auto px-[1.875rem]">
 					<div className="mx-auto items-center lg:flex flex-row lg:w-[80%] md:w-[75%]">
 						<span className=" text-[#403b3b] lg:w-[50%] md:w-[75%]">
@@ -18,7 +18,7 @@ function HomeBanner() {
 									Grow your audience and your revenue
 								</h1>
 								<p
-									className="mt-[1.875rem] text-[1.25rem] leading-[1.4] text-[#241c15] font-light tracking-[0]"
+									className="mt-[1.875rem] text-[1.25rem] leading-[1.4] text-[#241c15] font-extralight tracking-[0]"
 									style={{
 										fontFamily:
 											"Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif",
