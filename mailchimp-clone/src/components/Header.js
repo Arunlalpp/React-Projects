@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
+import { AiOutlineSearch } from "react-icons/ai";
 import MailchimpLogo from "./MailchimpLogo";
 import HeaderButton from "./Shared/HeaderButton";
-import { AiOutlineSearch } from "react-icons/ai";
 
 function Header() {
 	const [headerColor, setHeaderColor] = useState("");
@@ -12,9 +12,10 @@ function Header() {
 
 	useEffect(() => {
 		window.addEventListener("scroll", listenScrollEvent);
+		window.addEventListener("hover", listenScrollEvent);
 	});
 	return (
-		<div>
+		<div className="lg:block hidden">
 			<div
 				className="bg-[#ffe01b] hover:bg-[#fff] cursor-pointer fixed left-0 right-0 top-0 z-10 "
 				style={{ background: headerColor }}
