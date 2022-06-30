@@ -91,4 +91,135 @@ const mailchimpDatas = [
 		empty: "",
 	},
 ];
-export { containerDatas, customerLogos, insiprationDatas, mailchimpDatas };
+
+const footerLinks = [
+	{
+		title: "Products",
+		contents: [
+			{
+				text: "Why Mailchimp?",
+				link: "",
+			},
+			{
+				text: "Product Updates",
+				link: "",
+			},
+			{
+				text: "Email Marketing",
+				link: "",
+			},
+			{
+				text: "Websites",
+				link: "",
+			},
+			{
+				text: "Transactional Email",
+				link: "",
+			},
+			{
+				text: "GDPR Compliance",
+				link: "",
+			},
+			{
+				text: "Security",
+				link: "",
+			},
+			{
+				text: "Status",
+				link: "",
+			},
+			{
+				text: "Mobile App",
+				link: "",
+			},
+		],
+	},
+	{
+		title: "Resources",
+		contents: [
+			{
+				text: "Marketing Library",
+				link: "",
+			},
+			{
+				text: "Free Marketing Tools",
+				link: "",
+			},
+			{
+				text: "Marketing Glossary",
+				link: "",
+			},
+			{
+				text: "Integrations Directory",
+				link: "",
+			},
+		],
+	},
+	{
+		title: "Community",
+		contents: [
+			{
+				text: "Agencies & Freelancers",
+				link: "",
+			},
+			{
+				text: "Developers",
+				link: "",
+			},
+			{
+				text: "Events",
+				link: "",
+			},
+		],
+	},
+	{
+		title: "Company",
+		contents: [
+			{
+				text: "Newsroom",
+				link: "",
+			},
+			{
+				text: "Annual Report",
+				link: "",
+			},
+			{
+				text: "Careers",
+				link: "",
+			},
+			{
+				text: "Accessibility",
+				link: "",
+			},
+		],
+	},
+	{
+		title: "Help",
+		contents: [
+			{
+				text: "Contact Us",
+
+				link: "",
+			},
+			{
+				text: "Hire an Expert",
+				link: "",
+			},
+			{
+				text: "Help Center",
+				link: "",
+			},
+			{
+				text: "Talk to Sales",
+				link: "",
+			},
+		],
+	},
+];
+export {
+	containerDatas,
+	customerLogos,
+	insiprationDatas,
+	mailchimpDatas,
+	footerLinks,
+};
