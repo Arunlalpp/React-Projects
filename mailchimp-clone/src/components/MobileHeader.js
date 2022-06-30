@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { AiOutlineClose } from "react-icons/ai";
 import { AiOutlineSearch } from "react-icons/ai";
 import { IoIosArrowForward } from "react-icons/io";
+import { BsArrowRight } from "react-icons/bs";
 import { FiPhone } from "react-icons/fi";
 import MailchimpLogo from "./MailchimpLogo";
 import HeaderButton from "./Shared/HeaderButton";
@@ -37,7 +38,7 @@ function MobileHeader() {
 					<MailchimpLogo />
 				</div>
 				<span
-					className="text-[13px]  font-medium"
+					className="text-[13px]  font-semibold text-Primary"
 					style={{
 						fontFamily:
 							"Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif",
@@ -69,43 +70,50 @@ function MobileHeader() {
 								<AiOutlineSearch className="text-[24px] text-[#000]" />
 							</div>
 						</div>
-						<div className="border-b-[2px] border-[#000] max-w-[95%] mx-auto">
-							<div className="flex flex-row justify-between items-center py-3">
+						<div
+							className="border-b-[2px] border-[#000] max-w-[85%] mx-auto"
+							style={{
+								fontFamily: "Means Web,Georgia,Times,Times New Roman,serif",
+							}}
+						>
+							<div className="flex flex-row justify-between text-[20px] tracking-normal items-center py-[12px] leading-[18px]">
 								<span>Products</span>
 								<span>
-									<IoIosArrowForward />
+									<IoIosArrowForward className="text-[#878787]" />
 								</span>
 							</div>
-							<div className="flex flex-row justify-between items-center py-3">
+							<div className="flex flex-row justify-between text-[20px] tracking-normal items-center py-[12px] leading-[18px]">
 								<span>resources</span>
 								<span>
-									<IoIosArrowForward />
+									<IoIosArrowForward className="text-[#878787]" />
 								</span>
 							</div>
-							<div className="flex flex-row justify-between items-center py-3">
+							<div className="flex flex-row justify-between text-[20px] tracking-normal items-center py-[12px] leading-[18px]">
 								<span>Inspiration</span>
 								<span>
-									<IoIosArrowForward />
+									<IoIosArrowForward className="text-[#878787]" />
 								</span>
 							</div>
-							<div className="flex flex-row justify-between items-center py-3">
+							<div className=" py-[12px]">
 								<span>Pricing</span>
-								<span>
-									<IoIosArrowForward />
-								</span>
 							</div>
 						</div>
-						<div className="max-w-[95%] mx-auto mt-3 flex flex-row items-center">
-							<span>Talk to Sale</span>
-							<FiPhone className="ml-1 text-[1.2rem]" />
+						<div
+							className="max-w-[85%] mx-auto mt-3 flex flex-row items-center gap-2"
+							style={{
+								fontFamily: "Means Web,Georgia,Times,Times New Roman,serif",
+							}}
+						>
+							<span className="text-[20px]">Talk to Sale</span>
+							<FiPhone className="text-[1.2rem]" />
 						</div>
-						<div className="flex  flex-col gap-5 justify-end max-w-[95%] mx-auto">
+						<div className="flex  flex-col gap-5 justify-end max-w-[85%] mx-auto h-[60vh]">
 							<div className="mt-[12px]">
 								<span className="txt-[15px] leading-[20.25px] ">
 									Product Updates
 								</span>
 							</div>
-							<div className="max-w-[95%] mx-auto px-1.5">
+							<div className="">
 								<p className="text-[12px] font-light">
 									{" "}
 									Get the latest on new features, product improvements, and
@@ -113,21 +121,17 @@ function MobileHeader() {
 								</p>
 								<p className="text-[#007c89] text-[14px] mt-[12px] mb-[12px] flex flex-row items-center gap-2">
 									See what's new
-									<img
-										className="w-[16.7069px] h-[9px]"
-										src="https://mailchimp.com/release/plums/cxp/images/global_nav/icon-arrow-right.595f14f6.svg"
-										alt=""
-									/>
+									<BsArrowRight className=" text-[20px] fill-[#007c89]" />
 								</p>
 							</div>
 						</div>
 						<hr></hr>
-						<div className="max-w-[95%] mx-auto mt-3 flex flex-row items-center gap-5">
+						<div className="max-w-[85%] mx-auto mt-3 flex flex-row items-center gap-5">
 							<HeaderButton Header="Login" />
 							<div className="">
 								<a
 									href="/"
-									className="text-white bg-[#007c89] text-[#fff] font-semibold text-[14px] py-[10px] px-[40px] text-center cursor-pointer leading-[21.6px]"
+									className="text-white bg-[#007c89] font-semibold text-[14px] py-[10px] px-[30px] text-center cursor-pointer leading-[21.6px]"
 									style={{
 										fontFamily:
 											"Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif",
