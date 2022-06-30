@@ -6,9 +6,9 @@ import FooterSocialicons from "./FooterSocialicons";
 function Footer() {
 	return (
 		<div className="bg-[#efeeea] ">
-			<div className="box-border max-w-[1600px] mx-auto px-[1.875rem] py-[5rem]">
-				<div className=" lg:flex lg:flex-row gap-6 justify-between   lg:pt-[7.5rem] lg:pb-[4rem]">
-					<div className=" flex lg:flex-row justify-between gap-6  flex-col">
+			<div className="box-border max-w-[1600px] mx-auto px-[1.875rem] lg:pt-0 pt-[5rem] pb-[2rem] border-b-[1px] border-black">
+				<div className=" lg:block lg:flex-row gap-6 justify-between   lg:pt-[7.5rem] lg:pb-[4rem]">
+					<div className=" flex lg:flex-row justify-between lg:justify-center gap-6 lg:gap-20 flex-col w-auto">
 						{footerLinks?.map((footerLink) => {
 							return (
 								<div className="text-black">
@@ -26,24 +26,26 @@ function Footer() {
 									{footerLink?.contents?.map((content) => {
 										return (
 											<div
-												className="text-[#241c15] text-[.8125rem] p-[1px] whitespace-nowrap leading-7 "
+												className="text-[#241c15] text-[.8125rem] p-[1px] whitespace-nowrap leading-7 mb-[.625rem]"
 												style={{
 													fontFamily:
 														"-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif",
 												}}
 												key={content.text}
 											>
-												<button className="border-none ">{content.text}</button>
+												<button className="border-none hover:underline ">
+													{content.text}
+												</button>
 											</div>
 										);
 									})}
 								</div>
 							);
 						})}
-						<div className=" flex flex-col gap-8">
+						<div className=" flex flex-col gap-8 lg:gap-24">
 							<div className="">
 								<img
-									className="w-[40%]"
+									className="w-[40%] lg:w-[70%] mb-2"
 									src="https://eep.io/images/yzco4xsimv0y/73ZAoe8O3Y7SXQLeCNTq5u/8ddf1f63b4abdf7f67149d3a9d74a0bd/MCP.svg?w=260&fm=webp&q=80"
 									alt=""
 								/>
@@ -63,7 +65,7 @@ function Footer() {
 							</div>
 							<div className="">
 								<img
-									className="w-[40%]"
+									className="w-[40%] lg:w-[70%] mb-2"
 									src="https://eep.io/images/yzco4xsimv0y/5itQmdXHB6vMuAcvyWp5MR/ef5cd2cecd4c92b7029a22ec67585c65/Courier.svg?w=260&fm=webp&q=80"
 									alt=""
 								/>
@@ -86,7 +88,7 @@ function Footer() {
 					</div>
 				</div>
 			</div>
-			<hr className="pt-[4rem] text-black"></hr>
+			{/* <hr className="pt-[2rem] text-black " /> */}
 			<FooterSocialicons />
 		</div>
 	);

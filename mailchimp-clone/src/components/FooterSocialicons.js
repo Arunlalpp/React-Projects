@@ -3,22 +3,22 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 
 function FooterSocialicons() {
 	return (
-		<div className="box-border max-w-[1600px] mx-auto px-[1.875rem] pb-[4rem]">
-			<div className="">
-				<div className="mx-[5px] flex flex-row justify-between">
+		<div className="box-border max-w-[1600px] mx-auto px-[1.875rem] py-[4rem] lg:flex lg:flex-row gap-[5rem] lg:justify-center">
+			<div className="lg:flex lg:flex-row items-center lg:gap-8">
+				<div className="mx-[5px] flex flex-row justify-between lg:justify-start lg:gap-6">
 					<img
-						className=""
+						className="lg:w-[5vw] lg:h-[2vw]"
 						src="https://eep.io/images/yzco4xsimv0y/1u3hha7FE0Q402e2qsMu6a/5e403548149c1618b64034284f692ff1/icon-ios.svg?w=320&fm=webp&q=80"
 						alt="Apple"
 					/>
 					<img
-						className=""
+						className="lg:w-[5vw] lg:h-[2vw]"
 						src="https://eep.io/images/yzco4xsimv0y/64EpnI4RsQI66c2y2O60G2/4c34d7bc4dd7a4362c7e19a06c109e21/icon-android.svg?w=320&fm=webp&q=80"
 						alt="googlePlay"
 					/>
 				</div>
 				<div className="flex flex-row py-[3rem]">
-					<picture className="flex flex-row items-center gap-[3rem] mx-auto">
+					<picture className="flex flex-row items-center gap-[3rem] mx-auto xs:gap-[8rem]">
 						<img
 							src="https://eep.io/images/yzco4xsimv0y/5daYAeMRSgIUUiSquGwsgI/1904e3f818575ec9625fa15dab193243/icon-facebook.svg?w=320&fm=webp&q=80"
 							alt="Facebook"
@@ -46,7 +46,7 @@ function FooterSocialicons() {
 					</picture>
 				</div>
 			</div>
-			<div className="flex flex-col text-center gap-3">
+			<div className="flex flex-col text-center lg:text-left gap-5 lg:w-[15vw] lg:gap-2">
 				<div className="">
 					<select
 						className="border-[1px] border-black px-5 py-2 text-left appearance-none"
@@ -84,7 +84,7 @@ function FooterSocialicons() {
 				</div>
 				<div className="">
 					<p
-						className="text-[10px] font-[400] leading-[15px] block"
+						className="text-[10px] font-[400] leading-[15px] block text-justify "
 						style={{
 							fontFamily:
 								"Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif",
