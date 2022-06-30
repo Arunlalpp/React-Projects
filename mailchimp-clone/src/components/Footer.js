@@ -1,4 +1,5 @@
 import React from "react";
+import { BsArrowRight } from "react-icons/bs";
 import { footerLinks } from "../Constants";
 import FooterSocialicons from "./FooterSocialicons";
 
@@ -57,11 +58,7 @@ function Footer() {
 								</span>
 								<div className="mt-[0.75rem] flex flex-row items-center gap-2">
 									<span className="text-[14px]">Check it out </span>
-									<img
-										className="w-[16.7069px] h-[9px]"
-										src="https://mailchimp.com/release/plums/cxp/images/global_nav/icon-arrow-right.595f14f6.svg"
-										alt=""
-									/>
+									<BsArrowRight className=" text-[20px] fill-black" />
 								</div>
 							</div>
 							<div className="">
@@ -82,18 +79,14 @@ function Footer() {
 								</span>
 								<div className="mt-[0.75rem] flex flex-row items-center gap-2">
 									<span className="text-[14px]">Learn more </span>
-									<img
-										className="w-[16.7069px] h-[9px]"
-										src="https://mailchimp.com/release/plums/cxp/images/global_nav/icon-arrow-right.595f14f6.svg"
-										alt=""
-									/>
+									<BsArrowRight className=" text-[20px] fill-black" />
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<hr className="py-[4rem]"></hr>
+			<hr className="pt-[4rem] text-black"></hr>
 			<FooterSocialicons />
 		</div>
 	);
