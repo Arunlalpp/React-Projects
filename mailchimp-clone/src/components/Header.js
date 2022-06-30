@@ -73,7 +73,7 @@ function Header() {
 							<div className="">
 								<a
 									href="/"
-									className="text-white bg-[#007c89] text-[#fff] font-semibold text-[16px] py-[16px] px-[20px] text-center cursor-pointer leading-[21.6px]"
+									className="text-white bg-[#007c89] font-semibold text-[16px] py-[16px] px-[20px] text-center cursor-pointer leading-[21.6px]"
 									style={{
 										fontFamily:
 											"Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif",

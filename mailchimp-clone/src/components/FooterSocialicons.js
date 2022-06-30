@@ -18,7 +18,7 @@ function FooterSocialicons() {
 					/>
 				</div>
 				<div className="flex flex-row py-[3rem]">
-					<picture className="flex flex-row items-center gap-[3rem] mx-auto xs:gap-[8rem]">
+					<picture className="flex flex-row items-center gap-[2.5rem] mx-auto">
 						<img
 							src="https://eep.io/images/yzco4xsimv0y/5daYAeMRSgIUUiSquGwsgI/1904e3f818575ec9625fa15dab193243/icon-facebook.svg?w=320&fm=webp&q=80"
 							alt="Facebook"
