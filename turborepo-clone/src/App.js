@@ -1,4 +1,5 @@
 import "./App.css";
+import CradContainer from "./Components/CradContainer";
 import CustomerLogos from "./Components/CustomerLogos";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
@@ -10,7 +11,8 @@ function App() {
 			<Header />
 			<HomeContainer />
 			<CustomerLogos />
-			{/* <Footer /> */}
+			<CradContainer />
+			<Footer />
 		</div>
 	);
 }
