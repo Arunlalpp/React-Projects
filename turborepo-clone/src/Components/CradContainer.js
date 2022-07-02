@@ -16,7 +16,7 @@ function CradContainer() {
 					{cardDatas.map((cardData) => {
 						return (
 							<div class="p-10 bg-[#1d1d1d] shadow-lg rounded-xl dark:bg-opacity-5 ">
-								<div>{cardData.Svg}</div>
+								<div className="h-8 w-8 text-white">{cardData.Icon}</div>
 								<div class="mt-4">
 									<h3 class="text-lg font-medium text-white">
 										{cardData.Title}
