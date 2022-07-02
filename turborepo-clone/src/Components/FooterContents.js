@@ -15,13 +15,31 @@ function FooterContents() {
 									<li className="text-sm text-gray-500 no-underline betterhover:hover:text-gray-700 betterhover:hover:dark:text-white transition">
 										Documentaion
 									</li>
+									<li className="text-sm text-gray-500 no-underline betterhover:hover:text-gray-700 betterhover:hover:dark:text-white transition">
+										API Reference{" "}
+									</li>
+									<li className="text-sm text-gray-500 no-underline betterhover:hover:text-gray-700 betterhover:hover:dark:text-white transition">
+										Blog
+									</li>
+									<li className="text-sm text-gray-500 no-underline betterhover:hover:text-gray-700 betterhover:hover:dark:text-white transition">
+										Releases
+									</li>
+									<li className="text-sm text-gray-500 no-underline betterhover:hover:text-gray-700 betterhover:hover:dark:text-white transition">
+										FAQ
+									</li>
+									<li className="text-sm text-gray-500 no-underline betterhover:hover:text-gray-700 betterhover:hover:dark:text-white transition">
+										Enterprise
+									</li>
 								</ul>
 							</div>
 							<div>
 								<h3 className="text-sm text-white">Solutions</h3>
 								<ul className="mt-4 space-y-1.5 list-none ml-0">
 									<li className="text-sm text-gray-500 no-underline betterhover:hover:text-gray-700 betterhover:hover:dark:text-white transition">
-										Documentaion
+										Github
+									</li>
+									<li className="text-sm text-gray-500 no-underline betterhover:hover:text-gray-700 betterhover:hover:dark:text-white transition">
+										Discord
 									</li>
 								</ul>
 							</div>
@@ -31,7 +49,13 @@ function FooterContents() {
 								<h3 className="text-sm text-white">Solutions</h3>
 								<ul className="mt-4 space-y-1.5 list-none ml-0">
 									<li className="text-sm text-gray-500 no-underline betterhover:hover:text-gray-700 betterhover:hover:dark:text-white transition">
-										Documentaion
+										Open Source Software
+									</li>
+									<li className="text-sm text-gray-500 no-underline betterhover:hover:text-gray-700 betterhover:hover:dark:text-white transition">
+										Github
+									</li>
+									<li className="text-sm text-gray-500 no-underline betterhover:hover:text-gray-700 betterhover:hover:dark:text-white transition">
+										Twitter
 									</li>
 								</ul>
 							</div>
@@ -39,7 +63,10 @@ function FooterContents() {
 								<h3 className="text-sm text-white">Solutions</h3>
 								<ul className="mt-4 space-y-1.5 list-none ml-0">
 									<li className="text-sm text-gray-500 no-underline betterhover:hover:text-gray-700 betterhover:hover:dark:text-white transition">
-										Documentaion
+										Privacy Policy
+									</li>
+									<li className="text-sm text-gray-500 no-underline betterhover:hover:text-gray-700 betterhover:hover:dark:text-white transition">
+										Terms of use
 									</li>
 								</ul>
 							</div>
