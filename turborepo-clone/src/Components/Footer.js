@@ -7,7 +7,7 @@ function Footer() {
 			<div className="py-2 border-b border-neutral-800  md:block">
 				<div className="max-w-[90rem] mx-auto pl-[max(env(safe-area-inset-left),1.5rem)] pr-[max(env(safe-area-inset-left),1.5rem)] py-12">
 					<div className="flex justify-between flex-col-reverse md:flex-row items-center md:items-end">
-						<span className="text-gray-600 dark:text-gray-400">
+						<span className="text-gray-600 ">
 							<footer>
 								<h2 id="footer-heading" className="sr-only">
 									Footer
