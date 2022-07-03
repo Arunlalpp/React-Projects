@@ -7,8 +7,9 @@ import { ReactComponent as Hamburger } from "./SvgFiles/Hamburger.svg";
 function Header() {
 	return (
 		<div>
-			<div className="">
-				<div className="bg-black w-full h-full">
+			<div className="fixed insect-0 z-10">
+				<div className=" w-full h-full bg-transparent ">
+					<div class="shadow-sm absolute w-full h-full dark:bg-white bg-black pointer-events-none md:opacity-80 opacity-80 border-gray-700 border-b"></div>
 					<div className="max-w-[90rem] px-6 mx-auto h-16 flex flex-row items-center gap-2">
 						<div className="flex flex-row items-center mr-2 flex-auto">
 							<HeaderLogo className="text-white" />
