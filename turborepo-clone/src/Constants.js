@@ -8,67 +8,7 @@ import { ReactComponent as TaskPipeline } from "../src/Components/SvgFiles/TaskP
 import { ReactComponent as MeetsYou } from "../src/Components/SvgFiles/MeetsYou.svg";
 import { ReactComponent as Profile } from "../src/Components/SvgFiles/Profile.svg";
 
-const footerLinks = [
-	{
-		title: "Solutions",
-		contents: [
-			{
-				Text: "Documentaion",
-			},
-			{
-				Text: "API Reference",
-			},
-			{
-				Text: "Blog",
-			},
-			{
-				Text: "Releases",
-			},
-			{
-				Text: "FAQ",
-			},
-			{
-				Text: "Enterprise",
-			},
-		],
-	},
-	{
-		title: "Support",
-		contents: [
-			{
-				Text: "GitHub",
-			},
-			{
-				Text: "Discord",
-			},
-		],
-	},
-	{
-		title: "Company",
-		contents: [
-			{
-				Text: "Open Source Software",
-			},
-			{
-				Text: "GitHub",
-			},
-			{
-				Text: "Twitter",
-			},
-		],
-	},
-	{
-		title: "Legal",
-		contents: [
-			{
-				Text: "Privacy Policy",
-			},
-			{
-				Text: "Terms of Use",
-			},
-		],
-	},
-];
+
 const teamLogos = [
 	{
 		url: "https://turborepo.org/images/logos/vercel.svg",
@@ -146,4 +86,4 @@ const cardDatas = [
 			"Generate build profiles and import them in Chrome or Edge to understand which tasks are taking the longest.",
 	},
 ];
-export { footerLinks, teamLogos, cardDatas };
+export { teamLogos, cardDatas };
