@@ -7,6 +7,7 @@ import Header from "./Components/Header";
 import HomeContainer from "./Components/HomeContainer";
 
 function App() {
+
 	return (
 		<div>
 			<Header />
