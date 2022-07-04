@@ -1,4 +1,5 @@
 import React from "react";
+import TwiterCardContainer from "./TwiterCardContainer";
 
 function ContainerText() {
 	return (
@@ -39,7 +40,7 @@ function ContainerText() {
 						<span className=" box-border inline-block overflow-hidden bg-none opacity-1 m-0 p-0 relative max-w-full border-0">
 							<span className="box-border block overflow-hidden bg-none opacity-1 m-0 p-0 relative max-w-full border-0"></span>
 							<img
-								className="rounded-full mr-6"
+								className="rounded-full w-[90px] h-[90px]"
 								src="https://turborepo.org/_next/image?url=%2Fimages%2Fpeople%2Fjaredpalmer_headshot.jpeg&w=256&q=75"
 								alt="Profile-sign"
 							/>
@@ -50,6 +51,7 @@ function ContainerText() {
 							<span className=" box-border inline-block overflow-hidden bg-none opacity-1 m-0 p- 0 relative max-w-full border-0">
 								<span className="box-border block overflow-hidden bg-none opacity-1 m-0 p- 0 relative max-w-full border-0"></span>
 								<img
+									className=" w-[200px] h-[75px]"
 									src="https://turborepo.org/_next/image?url=%2Fimages%2Fhome%2Fjared_signature.png&w=256&q=75"
 									alt="Profile-sign"
 								/>
@@ -69,6 +71,7 @@ function ContainerText() {
 					</div>
 				</div>
 			</div>
+			<TwiterCardContainer />
 		</div>
 	);
 }
