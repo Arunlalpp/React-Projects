@@ -3,7 +3,7 @@ import TwitterCardData from "./TwitterCardData";
 
 function ContainerText() {
 	return (
-		<div className="bg-[#111111]">
+		<div class="bg-[#111111]">
 			<div className="px-4 py-16 mx-auto sm:pt-20 sm:pb-24 lg:pt-24 lg:px-8 max-w-[90rem] ">
 				<h2 className="max-w-4xl mx-auto pb-6 text-5xl font-extrabold tracking-tight lg:text-6xl xl:text-7xl leading-[1.25!important] md:text-center text-white">
 					Scaling your monorepo shouldn't be so difficult
@@ -71,13 +71,29 @@ function ContainerText() {
 					</div>
 				</div>
 			</div>
-			<div className="max-w-4xl px-4 pb-12 mx-auto lg:px-8 sm:py-20 lg:py-24">
-				<h2 className="text-4xl font-extrabold leading-tight tracking-tight lg:text-5xl xl:text-6xl md:text-center text-white">
-					Loved by badass engineers
-				</h2>
+			<div className="sm:py-20 lg:py-24">
+				<div className="max-w-4xl px-4 pb-12 mx-auto lg:px-8 sm:py-20 lg:py-24">
+					<h2 className="text-4xl font-extrabold leading-tight tracking-tight lg:text-5xl xl:text-6xl md:text-center text-white">
+						Loved by badass engineers
+					</h2>
+				</div>
 			</div>
 			<div>
 				<TwitterCardData />
+			</div>
+			<div>
+				<div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
+					<div className="px-4 py-16 mx-auto mt-10 sm:max-w-none sm:flex sm:justify-center">
+						<div class="space-y-4 sm:space-y-0 sm:mx-auto  ">
+							<a
+								class="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-black no-underline border border-transparent rounded-md bg-white dark:text-black betterhover:dark:hover:bg-gray-300 betterhover:hover:bg-gray-700 md:py-3 md:text-lg md:px-10 md:leading-6"
+								href="/docs/getting-started"
+							>
+								Start Building →
+							</a>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	);
