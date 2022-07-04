@@ -12,7 +12,9 @@ export default function DisclosureComponent({ title, content }) {
 								<span>{title}</span>
 								<FiChevronDown
 									className={`${
-										open ? "text-[#737373]" : "-rotate-90 transform text-white"
+										open
+											? "text-[#737373]"
+											: "-rotate-90 transform text-[#737373]"
 									} h-5 w-5 `}
 								/>
 							</Disclosure.Button>
