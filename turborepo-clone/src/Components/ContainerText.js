@@ -1,5 +1,5 @@
 import React from "react";
-import TwiterCardContainer from "./TwiterCardContainer";
+import TwitterCardData from "./TwitterCardData";
 
 function ContainerText() {
 	return (
@@ -71,7 +71,14 @@ function ContainerText() {
 					</div>
 				</div>
 			</div>
-			<TwiterCardContainer />
+			<div className="max-w-4xl px-4 pb-12 mx-auto lg:px-8 sm:py-20 lg:py-24">
+				<h2 className="text-4xl font-extrabold leading-tight tracking-tight lg:text-5xl xl:text-6xl md:text-center text-white">
+					Loved by badass engineers
+				</h2>
+			</div>
+			<div>
+				<TwitterCardData />
+			</div>
 		</div>
 	);
 }
