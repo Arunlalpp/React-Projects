@@ -119,7 +119,7 @@ function Header() {
 															<Disclosure.Button className="flex w-full justify-between rounded-lg focus:bg-[#1B1C1D] mt-1 py-[0.375rem] px-2 text-left text-sm font-medium text-white">
 																<span
 																	className={`${
-																		open ? "text-[#737373]" : "text-white"
+																		open ? "text-[#737373]" : "text-[#737373]"
 																	}`}
 																>
 																	Docs
@@ -128,7 +128,7 @@ function Header() {
 																	className={`${
 																		open
 																			? "text-gray-500"
-																			: "-rotate-90 transform text-white"
+																			: "-rotate-90 transform text-[#737373] "
 																	} h-5 w-5 `}
 																/>
 															</Disclosure.Button>
@@ -209,6 +209,12 @@ function Header() {
 																	<p className="mt-1 py-[0.375rem] px-2">FAQ</p>
 																</div>
 															</Disclosure.Panel>
+															<p className="text-[#737373] ml-2 mt-3 text-sm">
+																Blog
+															</p>
+															<p className="text-[#0099ff] bg- ml-2  font-semibold bg-gray-800 opacity-50 px-4 mx-auto border-1 rounded-sm text-sm">
+																Enterprises
+															</p>
 														</>
 													)}
 												</Disclosure>
