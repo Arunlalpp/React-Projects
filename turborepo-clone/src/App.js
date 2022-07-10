@@ -1,4 +1,5 @@
 import "./App.css";
+import CardWithImage from "./Components/CardWithImage";
 import ContainerText from "./Components/ContainerText";
 import CradContainer from "./Components/CradContainer";
 import CustomerLogos from "./Components/CustomerLogos";
@@ -7,15 +8,15 @@ import Header from "./Components/Header";
 import HomeContainer from "./Components/HomeContainer";
 
 function App() {
-
 	return (
 		<div>
-			<Header />
+			{/* <Header />
 			<HomeContainer />
 			<CustomerLogos />
 			<CradContainer />
 			<ContainerText />
-			<Footer />
+			<Footer /> */}
+			<CardWithImage />
 		</div>
 	);
 }

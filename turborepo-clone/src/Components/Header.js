@@ -103,7 +103,7 @@ function Header() {
 										<div className="relative flex items-center">
 											<input
 												type="search"
-												className="text-[#d1d5db] bg-[#f9fafb1a] border-[#1f2937] leading-tight px-3 py-2 rounded-lg w-full appearance-none block outline-offset-[-2px]"
+												className="text-[#d1d5db] text-sm bg-[#f9fafb1a] border-[#1f2937] leading-tight px-3 py-2 rounded-lg w-full appearance-none block outline-offset-[-2px]"
 												placeholder="Search documentation..."
 											/>
 										</div>
@@ -212,8 +212,8 @@ function Header() {
 															<p className="text-[#737373] ml-2 mt-3 text-sm">
 																Blog
 															</p>
-															<p className="text-[#0099ff] bg- ml-2  font-semibold bg-gray-800 opacity-50 px-4 mx-auto border-1 rounded-sm text-sm">
-																Enterprises
+															<p className="text-[#0099ff]  mt-2 font-semibold bg-[#0f1f29]  px-2 py-1.5 mx-auto border-1 rounded-sm text-sm">
+																Enterprise
 															</p>
 														</>
 													)}
