@@ -9,7 +9,7 @@ function NewsLetter() {
 						<input
 							name="email"
 							type="email"
-							className=" border-b-2 border-[#ffa00a] block w-full py-3"
+							className=" border-b-2 border-[#ffa00a]   block w-full py-3"
 							placeholder="Email address"
 						/>
 					</label>
