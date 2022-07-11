@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import CustomerExperience from "./components/CustomerExperience";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import HomeBanner from "./components/HomeBanner";
+import Inspirations from "./components/Inspirations";
+import MailChimpFunctions from "./components/MailChimpFunctions";
+import MobileHeader from "./components/MobileHeader";
+import OutperformContainer from "./components/OutperformContainer";
+import PlansBanner from "./components/PlansBanner";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div>
+			<MobileHeader />
+			<Header />
+			<HomeBanner />
+			<OutperformContainer />
+			<CustomerExperience />
+			<Inspirations />
+			<MailChimpFunctions />
+			<PlansBanner />
+			<Footer />
+		</div>
+	);
 }
 
 export default App;
