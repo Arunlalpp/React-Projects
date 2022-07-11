@@ -6,8 +6,8 @@ interface HeaderProps {
 }
 export const Header = ({ HeaderLogo }: HeaderProps) => {
 	return (
-		<div className="Banner-image">
-			<div className="header">
+		<div className="header">
+			<div className="Banner-image">
 				<div className="pt-[0.5rem] Container">
 					<div className="">
 						<HeaderLogo className="wrapper" />
@@ -17,7 +17,7 @@ export const Header = ({ HeaderLogo }: HeaderProps) => {
 							<option>Englsh</option>
 							<option>हिन्दी</option>
 						</select>
-						<div className="bg-[#e50914] px-[.5rem] py-[.25rem]">
+						<div className="bg-[#e50914] px-[.5rem] py-[.15rem] rounded-sm">
 							<span className="text-white font-medium">Sign in</span>
 						</div>
 					</div>
