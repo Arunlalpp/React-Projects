@@ -1,5 +1,6 @@
 import React from "react";
 import BannerContainer from "./BannerContainer";
+import TvSection from "./TvSection";
 
 interface HeaderProps {
 	HeaderLogo: React.FunctionComponent<React.SVGProps<SVGSVGElement>>;
@@ -23,10 +24,10 @@ export const Header = ({ HeaderLogo }: HeaderProps) => {
 					</div>
 				</div>
 				<BannerContainer
-					BannerText="Unlimted movies,TV shows and more."
 					BannerSubText="Watch anywhere.Cancel anytime"
 					Bannertitle="Ready to watch? Enter your email to create or restart your membership."
 				/>
+				<TvSection />
 			</div>
 		</div>
 	);
