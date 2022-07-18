@@ -1,5 +1,6 @@
 import React from "react";
 import BannerContainer from "./BannerContainer";
+import StrangerThings from "./StrangerThings";
 import TvSection from "./TvSection";
 
 interface HeaderProps {
@@ -28,6 +29,7 @@ export const Header = ({ HeaderLogo }: HeaderProps) => {
 					Bannertitle="Ready to watch? Enter your email to create or restart your membership."
 				/>
 				<TvSection />
+				<StrangerThings />
 			</div>
 		</div>
 	);
