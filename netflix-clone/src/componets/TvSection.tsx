@@ -14,7 +14,7 @@ function TvSection() {
 					</div>
 					<div className="text-white relative">
 						<img
-							className="relative"
+							className="relative z-99"
 							src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
 							alt=""
 						/>
