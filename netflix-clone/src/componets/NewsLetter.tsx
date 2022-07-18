@@ -2,28 +2,30 @@ import React from "react";
 
 function NewsLetter() {
 	return (
-		<div className="w-full md:w-4/6  lg:max-w-96 mx-auto">
-			<div className="p-6 ">
-				<form className="lg:flex lg:flex-row mt-2 lg:justify-center">
-					<label className="block mb-6 md:mb-3">
-						<input
-							name="email"
-							type="email"
-							className=" border-b-2 border-[#ffa00a]   block w-full py-3"
-							placeholder="Email address"
-						/>
-					</label>
-					<div className="mb-6 mt-[1px]">
-						<button
-							type="submit"
-							className="h-10 md:h-12 px-5 bg-[#e50914] transition-colors duration-150 focus:shadow-outline text-white font-medium"
-						>
-							Get Started
-						</button>
-					</div>
-				</form>
+		<section className="bg-white dark:bg-gray-800">
+			<div className="max-w-3xl px-6 py-16 mx-auto text-center">
+				<h1 className="text-3xl font-semibold text-gray-800 dark:text-gray-100">
+					Want to see Back in action?
+				</h1>
+				<p className="max-w-md mx-auto mt-5 text-gray-500 dark:text-gray-400">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis,
+					minus tempora nemo quos
+				</p>
+
+				<div className="flex flex-col mt-8 space-y-3 sm:space-y-0 sm:flex-row sm:justify-center sm:-mx-2">
+					<input
+						id="email"
+						type="text"
+						className="px-4 py-2 text-gray-700 bg-white border rounded-md sm:mx-2 dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40"
+						placeholder="Email Address"
+					/>
+
+					<button className="px-4 py-2 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-blue-700 rounded-md sm:mx-2 hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
+						Get Started
+					</button>
+				</div>
 			</div>
-		</div>
+		</section>
 	);
 }
 
