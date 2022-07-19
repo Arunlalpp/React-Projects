@@ -12,7 +12,7 @@ function SacredGames() {
 							laptop, and TV.
 						</h2>
 					</div>
-					<div className="text-white relative z-99">
+					<div className="text-white relative stragerthings-banner">
 						<img
 							className="relative"
 							src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png"

@@ -1,6 +1,7 @@
 import React from "react";
 import BannerContainer from "./BannerContainer";
 import ChildrenComponent from "./ChildrenComponent";
+import Footer from "./Footer";
 import SacredGames from "./SacredGames";
 import StrangerThings from "./StrangerThings";
 import TvSection from "./TvSection";
@@ -34,6 +35,7 @@ export const Header = ({ HeaderLogo }: HeaderProps) => {
 				<StrangerThings />
 				<SacredGames />
 				<ChildrenComponent />
+				<Footer />
 			</div>
 		</div>
 	);

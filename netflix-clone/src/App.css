@@ -47,3 +47,10 @@
   outline-offset: -2px;
   width: 3em;
 }
+.stragerthings-banner img {
+  z-index: 99;
+}
+
+.lust-image-banner img {
+  z-index: 99;
+}

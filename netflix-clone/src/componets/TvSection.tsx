@@ -12,9 +12,9 @@ function TvSection() {
 							Blu-ray players and more.
 						</h2>
 					</div>
-					<div className="text-white relative">
+					<div className="text-white relative lust-image-banner">
 						<img
-							className="relative z-99"
+							className="relative"
 							src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
 							alt=""
 						/>
