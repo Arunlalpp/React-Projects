@@ -4,7 +4,32 @@ const footerLinks = [
 		link: "",
 	},
 	{
+		text: "Help Centre",
+		link: "",
+	},
+	{
+		text: "Account",
+		link: "",
+	},
+	{
+		text: "Media Centre",
+		link: "",
+	},
+	{
 		text: "Investor Relations",
+		link: "",
+	},
+
+	{
+		text: "Jobs",
+		link: "",
+	},
+	{
+		text: "Ways to Watch",
+		link: "",
+	},
+	{
+		text: "Terms of Use",
 		link: "",
 	},
 	{
@@ -12,27 +37,27 @@ const footerLinks = [
 		link: "",
 	},
 	{
+		text: "Cookie Preferences",
+		link: "",
+	},
+	{
+		text: "Corporate Information",
+		link: "",
+	},
+	{
+		text: "Contact Us",
+		link: "",
+	},
+	{
 		text: "Speed Test",
 		link: "",
 	},
 	{
-		text: "Help Centre",
+		text: "Legal Notices",
 		link: "",
 	},
 	{
-		text: "GDPR Compliance",
-		link: "",
-	},
-	{
-		text: "Security",
-		link: "",
-	},
-	{
-		text: "Status",
-		link: "",
-	},
-	{
-		text: "Mobile App",
+		text: "Only on Netflix",
 		link: "",
 	},
 ];
