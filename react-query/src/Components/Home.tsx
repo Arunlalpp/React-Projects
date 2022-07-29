@@ -1,9 +1,10 @@
 import React from 'react'
+import{Link} from 'react-router-dom'
 
 function Home() {
   return (
-    <div className='text-red-700 text-center font-extrabold'>Home
-    <h1 className='text-blue-400'>Welcome</h1>
+    <div className='flex justify-center h-full'>
+    <Link to='/help' className='text-blue-800'>Fetch Data</Link>
     </div>
   )
 }
