@@ -8,14 +8,16 @@ function Help():JSX.Element {
   return (
     <div className='text-center p-6'>
       <div className='text-green-700'>
-        <span>user Details</span>
+        <span className='text-black text-2xl font-semibold'>user Details</span>
         <div className=''>
-          {userDetails?.map((userDetail:any) =>(
+          {userDetails.map((userDetail) =>(
             <><span>{userDetail.id}</span><h2>{userDetail.title}</h2><h4>{userDetail.body}</h4></>
           ))}
         </div>
       </div>
+      <div className='py-8'>
         <Button />
+      </div>
     </div>
   )
 }

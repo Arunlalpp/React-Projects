@@ -11,8 +11,6 @@ function useGetData()
 
         async () => {
             const {data } = await axios.get(API_URLS.getUser());
-            console.log(data);
-            // return data.body;
             return data;
           },
           {
