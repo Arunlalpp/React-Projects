@@ -1,0 +1,90 @@
+Front-end-roadmap
+
+1.Internet:
+
+- How does the internet worl
+-what is http
+-Browsers and how they work
+-Dns and how it works 
+-what is hosting
+
+Total time to cover this section:- 3hr
+
+2.HTML
+
+-learn the basics 
+-Writing semantic HTML
+-Forms and validation 
+-convention and best practice
+-accessibility
+-SEO Basics
+
+total time to cover the section: 11h
+
+3.CSS
+
+-learn the basics 
+-making layouts
+  -floats
+  -positionig
+  -display
+  -box modal 
+  -css grid
+  -flex box
+-responsive and mediaquery
+
+total time to cover the section:-  6h
+
+4.javascript
+
+-syntax and basic constructs
+-learning DOM manipulation
+-learn fetch api / ajax 
+-es6 and modular javascript
+
+total time to cover the section:-  1week
+
+5.version control
+
+-github
+-gitlab
+-bitbucket
+-http and cores
+-websecurity manager
+
+total time to cover the section:-  18h
+
+6.package manager 
+
+-npm 
+-yarn
+total time to cover the section:-  8h
+
+7.css Architecture
+
+-BEM 
+-Sass
+
+total time to cover the section:-  8h
+
+8.Framework
+
+-React
+-angular
+-vue.js
+-typescipt
+-gatsby
+-mobile appication
+
+total time to cover the section:-  2week
+
+9.testing app
+
+-jest
+-react-test-library
+-Enzyme
+
+total time to cover the section:-  8h
+
+
+ 
