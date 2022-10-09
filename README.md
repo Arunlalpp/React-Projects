@@ -1,2 +1,2 @@
 # React-Projects
-## Based on some youtube and individual code
+## Personal projects and website cloning
